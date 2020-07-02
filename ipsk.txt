@@ -5,7 +5,14 @@ import requests
 
 """ my network id is 454861 """
 
-url = https://api.meraki.com/api/v0/<resource>
+url = https://api.meraki.com/api/v0/networks/454861/ssids/5
+
+headers = {"X-Cisco-Meraki-API-Key": "3a18562c3c7888509be73b4ff6e46f53b24dbfa5"}
+
+payload = {
+    "name": "api sid",
+    "enabled": "false",
+}
 
 hello
 #
