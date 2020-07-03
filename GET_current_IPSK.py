@@ -11,11 +11,12 @@ import requests
 
 
 
-url = "https://api.meraki.com/api/v1/networks/L_659777345409787443/wireless/ssids/5/identityPsks
+url = "https://api.meraki.com/api/v1/networks/L_659777345409787443/wireless/ssids/5/identityPsks"
 
 headers = {"X-Cisco-Meraki-API-Key": "3a18562c3c7888509be73b4ff6e46f53b24dbfa5"}
 
 
+"""used the GET command"""
 response = requests.request("GET", url, headers=headers)
 
 
